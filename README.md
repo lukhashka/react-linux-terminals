@@ -2,7 +2,7 @@
 
 A React component that renders a Linux-style terminal window with a macOS-like title bar, themeable colors, and optional typewriter animation. Perfect for portfolios, docs, or landing pages.
 
-![Demo screenshot — add a screenshot of your terminal demo here](https://via.placeholder.com/800x450/1a1a2e/eeeeee?text=react-linux-terminals+Demo)
+![Demo screenshot](./assets/preview_git.png)
 
 ---
 
