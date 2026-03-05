@@ -1,0 +1,10 @@
+# Only "files" in package.json are published; this is a safety net.
+# Do not publish source or tooling.
+src/
+preview/
+demo.html
+*.config.ts
+*.config.js
+tsconfig.json
+.gitignore
+.npmignore

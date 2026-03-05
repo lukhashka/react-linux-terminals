@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output (library)
+dist/
+
+# Demo preview build (local only, run npm run build:demo to generate)
+preview/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local

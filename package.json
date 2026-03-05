@@ -1,0 +1,71 @@
+{
+  "name": "react-linux-terminals",
+  "version": "0.1.0",
+  "description": "Beautiful, themeable Linux-style terminal component for React apps.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./themes": {
+      "types": "./dist/themes/index.d.ts",
+      "import": "./dist/themes/index.js",
+      "require": "./dist/themes/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "build:demo": "vite build --config vite.demo.config.ts",
+    "build:all": "npm run build && npm run build:demo",
+    "demo:serve": "vite preview --outDir preview",
+    "link:off": "npm unlink",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "terminal",
+    "linux",
+    "kali",
+    "ubuntu",
+    "arch",
+    "component",
+    "ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukhashka/react-linux-terminals.git"
+  },
+  "homepage": "https://github.com/lukhashka/react-linux-terminals#readme",
+  "type": "module",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
