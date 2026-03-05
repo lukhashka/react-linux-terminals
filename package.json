@@ -1,6 +1,6 @@
 {
   "name": "react-linux-terminals",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Beautiful, themeable Linux-style terminal component for React apps.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
